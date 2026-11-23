@@ -78,34 +78,6 @@ Akun berikut tersedia pada data awal program. Password bersifat **case-sensitive
 
 Data awal juga sudah berisi beberapa kendaraan dan transaksi contoh, termasuk transaksi yang berstatus **Berjalan** dan **Selesai**. Karena itu, daftar kendaraan, saldo, dan riwayat transaksi yang tampil saat pertama dijalankan mengikuti data pada `data.py`.
 
-## 📦 Persyaratan
-
-- Python 3
-- Library Python:
-  - `inquirer`
-  - `pwinput`
-  - `prettytable`
-  - `matplotlib`
-
-> Arsip proyek ini belum menyertakan file `requirements.txt`. Library dapat dipasang secara manual menggunakan perintah berikut.
-
-```bash
-pip install inquirer pwinput prettytable matplotlib
-```
-
-## ▶️ Cara Menjalankan
-
-1. Ekstrak folder proyek.
-2. Buka terminal pada folder proyek.
-3. Pasang library yang dibutuhkan.
-4. Jalankan aplikasi:
-
-```bash
-python main.py
-```
-
-Gunakan tombol panah atas/bawah dan Enter untuk memilih menu. Tekan `Ctrl+C` untuk menghentikan program.
-
 ## 🗂️ Struktur File
 
 | File | Keterangan |
@@ -123,6 +95,4 @@ Gunakan tombol panah atas/bawah dan Enter untuk memilih menu. Tekan `Ctrl+C` unt
 
 ## 📚 Library yang Digunakan
 
-`inquirer` · `pwinput` · `prettytable` · `matplotlib`
-
-Library bawaan Python yang digunakan antara lain `os`, `re`, `math`, dan `datetime`.
+`inquirer` · `pwinput` · `prettytable` · `matplotlib` `os` · `re` · `math` · `datetime`
