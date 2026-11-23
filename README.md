@@ -55,12 +55,6 @@ Program menggunakan waktu aktual perangkat saat pemesanan dan pengembalian.
 | Pelunasan | Sisa 50% dari total biaya |
 | Denda keterlambatan | 50% dari harga rental per hari untuk setiap hari keterlambatan |
 
-Ketentuan perhitungan:
-- Jatuh tempo dihitung dari waktu pemesanan ditambah durasi sewa.
-- Keterlambatan dihitung per hari simulasi. Keterlambatan yang belum mencapai satu hari penuh tetap dibulatkan ke atas menjadi satu hari.
-- Denda dihitung berdasarkan jumlah hari terlambat dikalikan 50% harga rental per hari.
-- Setelah pengembalian berhasil, status kendaraan otomatis menjadi **Maintenance**. Admin dapat mengubah statusnya kembali menjadi **Tersedia** setelah kendaraan siap digunakan.
-
 Pengaturan DP dan denda dapat diubah pada `data.py`. Durasi satu hari simulasi dapat diubah melalui `DETIK_PER_HARI` pada `waktu.py`.
 
 ## 🔑 Akun Bawaan
